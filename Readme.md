@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Rini Iakupov](https://up.htmlacademy.ru/adaptive/18/user/1149589).
-* Наставник: `Неизвестно`.
+* Наставник: `Andrew Ginter`(https://htmlacademy.ru/profile/id781369).
 
 ---
 
