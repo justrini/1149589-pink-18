@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="знакомства, фото, приложение">
+  <meta name="description" content="Расскрась свою жизнь яркими красками!">
+  <title>HTML Academy: Пинк</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+  <header class="page-header">
+    <section class="page-header--wrapper">
+      <a class="page-header--logo" href="https://htmlacademy.ru/intensive/adaptive">
+        <img src="https://via.placeholder.com/150x150" alt="логотип пинк">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav--toggle" type="button">Открыть меню</button>
+        <div class="main-nav_wrapper">
+          <ul class="main-nav--list>">
+            <li class="main-nav--item">
+              <a class="main-nav--link" href="index.html">Главгая</a>
+            </li>
+            <li class="main-nav--item">
+              <a class="main-nav--link" href="photo.html">Фотографии</a>
+            </li>
+            <li class="main-nav--item">
+              <a class="main-nav--link" href="form.html">Конкурс</a>
+            </li>
+            <li class="main-nav--item">
+              <a class="main-nav--link" href="https://htmlacademy.ru/intensive/adaptive">HTML ACADEMY</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <div class="under-nav">
+      <p class="under-nav--text">Конкурс на самое безбашенное путешествие с Пинк</p>
+    </div>
+  </header>
+</body>
+<main class="main">
+  <div class="main__wrapper">
+    <p class="main__text-explonation">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу
+      бонусную карту!</p>
+    <form class="main__form" action="https://echo.htmlacademy.ru.">
+      <fieldset class="main__name fieldset-form">
+        <legend class="visually-hidden">Введите свои данныйе</legend>
+        <ul class="main__list-form">
+          <li class="main__item-form">
+            <label for=name>Фамилия:</label>
+            <input name="name" placeholder="Укажите фамилию *" type="text">
+          </li>
+          <li class="main__item-form">
+            <label for=name>Имя:</label>
+            <input name="name" placeholder="Введите ваше имя *" type="text">
+          </li>
+          <li class="main__item-form">
+            <label for=name>Отчество:</label>
+            <input name="name" placeholder="Ну и отчество тоже" type="text">
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="main__achievment">
+        <legend class="main-legend">Ваши безбашенные достижения в путешествии</legend>
+        <ul class="main__achievment-list form-list">
+          <li class="main__achievment-item form-list__item">
+            <input name="selfie" id="shark" type="checkbox">
+            <label for="shark">Сделал селфи с акулой</label>
+          </li>
+          <li class="main__achievment-item form-list__item">
+            <input name="selfie" id="sunburn" type="checkbox">
+            <label for="sunburn">Обгорел на пляже</label>
+          </li>
+          <li class="main__achievment-item form-list__item">
+            <input name="selfie" id="Chuck" type="checkbox">
+            <label for="Chuck">Видел Чака Норриса</label>
+          </li>
+          <li class="main__achievment-item form-list__item">
+            <input name="selfie" id="shoping" type="checkbox">
+            <label for="shoping">Накупил сувениров</label>
+          </li>
+          <li class="main__achievment-item form-list__item">
+            <input name="selfie" id="king" type="checkbox">
+            <label for="king">Удержал башню</label>
+          </li>
+          <li class="main__achievment-item form-list__item">
+            <input name="selfie" id="chav" type="checkbox">
+            <label for="chav">Разгромил отель</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="main__details fieldset-form">
+        <legend class="visually-hidden">Введите свои данныйе</legend>
+        <ul class="main__list-form">
+          <li class="main__item-form">
+            <label for=name>номер телефона</label>
+            <input name="name" placeholder="Номер, пожалуйста" type="text">
+          </li>
+          <li class="main__item-form">
+            <label for=name>адрес почты</label>
+            <input name="name" placeholder="Введите почту *" type="text">
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="main__device">
+        <legend class="main-legend">с каким приложением путешествовали</legend>
+        <ul class="main__device-list form-list">
+          <li class="form-list__item">
+            <input type="radio" name="platform" id="ios">
+            <label for="ios">Pink для iOS</label>
+          </li>
+          <li class="form-list__item">
+            <input type="radio" name="platform" id="android">
+            <label for="android">Pink на Android</label>
+          </li>
+          <li class="form-list__item">
+            <input type="radio" name="platform" id="windows">
+            <label for="windows">Windows Phone</label>
+          </li>
+        </ul>
+      </fieldset>
+      <div class="main__text">
+        <label for="story">опишите свои эмоции</label>
+        <textarea name="description" id="story" placeholder="Можно прям в красках, не стесняясь в выражениях"
+          type="text"></textarea>
+      </div>
+      <div class="main__submit">
+        <button class="main__button-submit" type="submit">отправить форму</button>
+        <p class="main__note">* - обязательные поля</p>
+      </div>
+    </form>
+  </div>
+</main>
+
+<footer class="footer">
+  <a class="footer__logo" href="index.html">
+    <svg class="footer__logo-image"></svg>
+  </a>
+  <div class="footer__social">
+    <a class="footer__btn" href="#">
+      <svg class="footer__btn--twitter"></svg>
+    </a>
+    <a class="footer__btn" href="#">
+      <svg class="footer__btn--facebook"></svg>
+    </a>
+    <a class="footer__btn" href="#">
+      <svg class="footer__btn--youtube"></svg>
+    </a>
+  </div>
+  <a class="footer__copyright" href="https://htmlacademy.ru/intensive/adaptive">
+    <svg class="footer__copyright-svg"></svg>
+    <span class="footer__copyright-text">Разработано</span>
+  </a>
+</footer>
+
+</html>
