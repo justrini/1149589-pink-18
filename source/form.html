@@ -6,42 +6,45 @@
   <meta name="keywords" content="знакомства, фото, приложение">
   <meta name="description" content="Расскрась свою жизнь яркими красками!">
   <title>HTML Academy: Пинк</title>
+  <link href="css/style.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-  <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
   <header class="page-header">
-    <section class="page-header--wrapper">
-      <a class="page-header--logo" href="https://htmlacademy.ru/intensive/adaptive">
-        <img src="https://via.placeholder.com/150x150" alt="логотип пинк">
+    <section class="page-header__wrapper">
+      <a class="page-header__logo" href="https://htmlacademy.ru/intensive/adaptive">
+        <img class="page-header__img" src="https://via.placeholder.com/150x150" alt="надпись пинк белым шрифтом">
       </a>
       <nav class="main-nav">
-        <button class="main-nav--toggle" type="button">Открыть меню</button>
-        <div class="main-nav_wrapper">
-          <ul class="main-nav--list>">
-            <li class="main-nav--item">
-              <a class="main-nav--link" href="index.html">Главгая</a>
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list>">
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="index.html">Главгая</a>
             </li>
-            <li class="main-nav--item">
-              <a class="main-nav--link" href="photo.html">Фотографии</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="photo.html">Фотографии</a>
             </li>
-            <li class="main-nav--item">
-              <a class="main-nav--link" href="form.html">Конкурс</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="form.html">Конкурс</a>
             </li>
-            <li class="main-nav--item">
-              <a class="main-nav--link" href="https://htmlacademy.ru/intensive/adaptive">HTML ACADEMY</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive">HTML ACADEMY</a>
             </li>
           </ul>
         </div>
       </nav>
     </section>
-    <div class="under-nav">
-      <p class="under-nav--text">Конкурс на самое безбашенное путешествие с Пинк</p>
-    </div>
+
   </header>
 </body>
 <main class="main">
+  <section class="main__intro intro">
+    <div class="intro__wrapper">
+      <h1 class="intro__text">Фотографии пользователей</h1>
+    </div>
+  </section>
   <div class="main__wrapper">
     <p class="main__text-explonation">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу
       бонусную карту!</p>
