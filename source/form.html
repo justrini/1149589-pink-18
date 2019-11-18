@@ -42,27 +42,27 @@
 <main class="main">
   <section class="main__intro intro">
     <div class="intro__wrapper">
-      <h1 class="intro__text">Фотографии пользователей</h1>
+      <h1 class="intro__text">Конкурс на самое безбашенное путешествие с Пинк</h1>
     </div>
   </section>
   <div class="main__wrapper">
-    <p class="main__text-explonation">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу
+    <p class="main__explonation">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу
       бонусную карту!</p>
-    <form class="main__form" action="https://echo.htmlacademy.ru.">
-      <fieldset class="main__name fieldset-form">
+    <form class="main__form form" action="https://echo.htmlacademy.ru.">
+      <fieldset class="main__name form__fieldset">
         <legend class="visually-hidden">Введите свои данныйе</legend>
-        <ul class="main__list-form">
-          <li class="main__item-form">
-            <label for=name>Фамилия:</label>
-            <input name="name" placeholder="Укажите фамилию *" type="text">
+        <ul class="form__list-form">
+          <li class="form__item-form">
+            <label class="form__label" for=name>Фамилия:</label>
+            <input class="form__input" name="name" placeholder="Укажите фамилию *" type="text" required>
           </li>
-          <li class="main__item-form">
-            <label for=name>Имя:</label>
-            <input name="name" placeholder="Введите ваше имя *" type="text">
+          <li class="form__item-form">
+            <label class="form__label" for=name>Имя:</label>
+            <input class="form__input" name="name" placeholder="Введите ваше имя *" type="text" required>
           </li>
-          <li class="main__item-form">
-            <label for=name>Отчество:</label>
-            <input name="name" placeholder="Ну и отчество тоже" type="text">
+          <li class="form__item-form">
+            <label class="form__label" for=name>Отчество:</label>
+            <input class="form__input" name="name" placeholder="Ну и отчество тоже" type="text">
           </li>
         </ul>
       </fieldset>
@@ -95,16 +95,16 @@
           </li>
         </ul>
       </fieldset>
-      <fieldset class="main__details fieldset-form">
+      <fieldset class="main__details form">
         <legend class="visually-hidden">Введите свои данныйе</legend>
-        <ul class="main__list-form">
-          <li class="main__item-form">
-            <label for=name>номер телефона</label>
-            <input name="name" placeholder="Номер, пожалуйста" type="text">
+        <ul class="form__list-form">
+          <li class="form__item-form">
+            <label class="form__label" for=name>номер телефона</label>
+            <input class="form__input" name="name" placeholder="Номер, пожалуйста" type="text">
           </li>
-          <li class="main__item-form">
-            <label for=name>адрес почты</label>
-            <input name="name" placeholder="Введите почту *" type="text">
+          <li class="form__item-form">
+            <label class="form__label" for=name>адрес почты</label>
+            <input class="form__input" name="name" placeholder="Введите почту *" type="text" required>
           </li>
         </ul>
       </fieldset>
@@ -132,7 +132,10 @@
       </div>
       <div class="main__submit">
         <button class="main__button-submit" type="submit">отправить форму</button>
-        <p class="main__note">* - обязательные поля</p>
+      </div>
+      <div class="main__under-submit">
+        <p class="main__note">
+          <span class="main__span">*</span> - обязательные поля</p>
       </div>
     </form>
   </div>
