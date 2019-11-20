@@ -8,8 +8,30 @@
 @import "main.scss";
 @import "page-header.scss";
 @import "prices.scss";
-@import "testimonials.scss"
+@import "testimonials.scss";
+@import "container-app.scss";
+@import "device.scss";
+@import "information__description";
+@import "information__content";
+@import "controls.scss";
+@import "testimonials__slider.scss";
+@import "prices__table-wrapper.scss";
+@import "info__additional.scss";
+@import "info__map.scss";
+@import "main-nav__wrapper.scss";
+@import "clients-cards__list";
+@import "filter__settings.scss";
+@import "filter__form.scss";
+@import "social.scss";
+@import "main__form.scss";
+@import "main__name.scss";
+@import "main__achievment.scss";
+@import "main__details.scss";
+@import "main__device.scss";
+@import "main__text.scss";
+
+$nav-color: #283645;
 
 body {
-  background: #ffffff;
+  background: $nav-color;
 }
