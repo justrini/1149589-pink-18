@@ -1,17 +1,21 @@
 .intro__title {
   background: url(../img/bg-back-mobile@1x.jpg);
+  background-repeat: no-repeat;
 }
 
 .intro__img {
+  padding-top: 395px;
   background: url(../img/iphone-hand-mobile@1x.png);
+  background-repeat: no-repeat;
 }
 
 .intro__app {
   background-color: #1d2631;
+
 }
 
 .intro__slogan {
-  font-family: Opensans-light;
+  font-family: "Opensans-light", "Arial", sans-serif;
   font-size: 24px;
   line-height: 0%;
   color: #fff;
@@ -22,4 +26,11 @@
   font-size: 14px;
   line-height: 24px;
   color: #fff;
+}
+
+.intro__text {
+  padding-top: 359px;
+  font-size: 24px;
+  color: #fff;
+  background: url(../img/bg-back-mobile@1x.jpg);
 }

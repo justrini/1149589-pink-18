@@ -1,3 +1,29 @@
 .prices {
   background-color: #f2f2f2;
 }
+
+.prices__tariff {
+  background-color: #283645;
+}
+
+.prices__title {
+  font-family: Opensans-bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.prices__price {
+  font-family: Opensans-light;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.prices__options {
+  font-family: Opensans;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+}
