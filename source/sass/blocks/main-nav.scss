@@ -1,11 +1,11 @@
 $bg-color: #283645;
 
-.main-nav {
-  background-color: $bg-color;
-}
-
 .main-nav__list {
   list-style: none;
+}
+
+.main-nav {
+  background-color: $bg-color;
 }
 
 .main-nav__link {
@@ -22,4 +22,12 @@ $bg-color: #283645;
   text-align: center;
   border-bottom: 1px solid #222;
   border-top: 1px solid #4c5764;
+}
+
+.review__counter {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #d22856;
 }
