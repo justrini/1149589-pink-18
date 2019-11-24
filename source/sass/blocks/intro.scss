@@ -1,8 +1,12 @@
 .intro {
-  width: 100%;
   background: url(../img/bg-back-mobile@1x.jpg);
   background-repeat: no-repeat;
   background-size: auto 100%;
+}
+
+.intro__wrapper {
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 .intro__title {

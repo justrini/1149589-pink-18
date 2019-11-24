@@ -1,3 +1,8 @@
+.clients-cards__wrapper {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
 .clients-cards__text {
   font-size: 14px;
   line-height: 30px;
@@ -29,4 +34,15 @@
 
 .clients-cards__list {
   list-style: none;
+}
+
+.clients-rards__text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+  padding: 21px 27px 42px 25px;
+  text-align: center;
+  background-color: #fff;
+  color: #283645;
 }

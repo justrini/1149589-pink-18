@@ -1,0 +1,30 @@
+.form__list-form {
+  list-style-type: none;
+}
+
+.form__label {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #d22856;
+  display: inline-block;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 22px;
+  text-transform: uppercase;
+}
+
+.form__input {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #333;
+  font-family: inherit;
+  width: 280px;
+  height: 62px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  border: 2px solid #e5e5e5;
+  box-sizing: border-box;
+  outline-color: #d22856;
+}
