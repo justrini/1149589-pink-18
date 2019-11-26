@@ -15,11 +15,18 @@
 <body>
   <header class="page-header">
     <div class="page-header__wrapper wrapper">
-      <a class="page-header__logo">
-        <img class="page-header__img" src="https://via.placeholder.com/150x150" alt="надпись пинк белым шрифтом" />
-      </a>
+      <div class="page-header__nav-wrapper">
+        <a class="page-header__logo">
+          <img class="page-header__img" src="img/logo-pink-white-mobile.svg" width="75" height="22"
+            alt="надпись пинк белым шрифтом" />
+        </a>
+        <button class="main-nav__toggle" type="button" id="toggle-btn">
+          <path fill="currentColor"
+            d="M15.087 11.933l8.56-8.559a.75.75 0 0 0 0-1.061L21.554.22a.747.747 0 0 0-1.06 0l-8.561 8.56L3.373.22a.771.771 0 0 0-1.061 0L.22 2.313a.75.75 0 0 0 0 1.061l8.56 8.559-8.56 8.559a.751.751 0 0 0 0 1.062l2.093 2.094a.744.744 0 0 0 1.06 0l8.561-8.56 8.56 8.56a.746.746 0 0 0 1.06 0l2.093-2.094a.751.751 0 0 0 0-1.062l-8.56-8.559z">
+          </path>
+        </button>
+      </div>
       <nav class="main-nav page-header__nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper wrapper">
           <ul class="main-nav__list">
             <li class="main-nav__item">
@@ -48,8 +55,8 @@
           <img class="intro__img" alt="рука с телефоном" />
         </div>
         <div class="intro__app container-app">
-          <div class="container-app__download">
-            <a class="container-app__text">Скачать приложение</a>
+          <div class="container-app__download btn">
+            <a class="container-app__text btn">Скачать приложение</a>
           </div>
           <div class="device">
             <ul class="device__list">
