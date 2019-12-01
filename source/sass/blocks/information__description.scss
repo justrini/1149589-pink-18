@@ -1,9 +1,16 @@
+.information__description {
+  margin: auto;
+  text-align: center;
+  width: 205px;
+
+}
+
 .information__h2,
 .information__text-p {
   font-family: "MYRIADPRO-REGULAR";
   font-size: 24px;
-  line-height: 0%;
   color: #283645;
+  font-weight: 400;
 }
 
 .information__title {
@@ -14,7 +21,7 @@
 }
 
 .information__text {
-  font-family: "MYRIADPRO-REGULAR";
+  font-family: "Opensans-light", "Arial", sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #283645;

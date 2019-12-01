@@ -9,7 +9,9 @@
 }
 
 .intro__img {
-  padding-top: 395px;
+  margin-top: 34px;
+  padding-left: 104px;
+  padding-top: 264px;
   background: url(../img/iphone-hand-mobile@1x.png);
   background-repeat: no-repeat;
 }
@@ -21,17 +23,23 @@
 
 .intro__slogan {
   margin: 0;
+  padding-left: 20px;
+  padding-top: 29px;
   font-family: "Opensans-light", "Arial", sans-serif;
   font-size: 24px;
-  line-height: 0%;
   color: #fff;
+  text-align: center;
 }
 
 .intro__description {
+  margin: 0 auto;
+  padding: 20px 20px 30px;
   font-family: "MYRIADPRO-REGULAR";
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: #a1a3a6;
+  text-align: center;
+  width: 260px;
 }
 
 .intro__text {

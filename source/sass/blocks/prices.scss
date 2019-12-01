@@ -2,6 +2,11 @@
   background-color: #f2f2f2;
 }
 
+.prices__table {
+  min-width: 835px;
+  border-collapse: collapse;
+}
+
 .prices__tariff {
   background-color: #283645;
 }
@@ -22,8 +27,33 @@
 }
 
 .prices__options {
-  font-family: Opensans;
+  padding: 6px 8px 7px 16px;
+  width: 152px;
+  border: 2px solid #e5e5e5;
   font-size: 14px;
   line-height: 30px;
   color: #283645;
+  background-color: #fff;
+}
+
+.prices__options--yes::before {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/icon-yes.svg);
+  background-size: 31px auto;
+  background-repeat: no-repeat;
+}
+
+.prices__options--no::before {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/icon-no.svg);
+  background-size: 31px auto;
+  background-repeat: no-repeat;
 }
