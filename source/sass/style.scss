@@ -1,23 +1,30 @@
+
+
+
+
+
+
+
 @import "blocks/clients-cards.scss";
 @import "blocks/filter.scss";
 @import "blocks/footer.scss";
-@import "blocks/info.scss";
-@import "blocks/information.scss";
-@import "blocks/intro.scss";
-@import "blocks/main-nav.scss";
+@import "blocks/info.scss"; /*!*/
+@import "blocks/information.scss"; /*!*/
+@import "blocks/intro.scss"; /*!*/
+@import "blocks/main-nav.scss"; /*!*/
 @import "blocks/main.scss";
-@import "blocks/page-header.scss";
-@import "blocks/prices.scss";
-@import "blocks/testimonials.scss";
+@import "blocks/page-header.scss"; /*!*/
+@import "blocks/prices.scss"; /*!*/
+@import "blocks/testimonials.scss"; /*!*/
 @import "blocks/container-app.scss";
-@import "blocks/device.scss";
-@import "blocks/information__description";
-@import "blocks/information__content";
+@import "blocks/device.scss"; /*!*/
+@import "blocks/information__description"; /*!*/
+@import "blocks/information__content"; /*!*/
 @import "blocks/controls.scss";
-@import "blocks/testimonials__slider.scss";
-@import "blocks/prices__table-wrapper.scss";
-@import "blocks/info__additional.scss";
-@import "blocks/info__map.scss";
+@import "blocks/testimonials__slider.scss"; /*!*/
+@import "blocks/prices__table-wrapper.scss"; /*!*/
+@import "blocks/info__additional.scss"; /*!*/
+@import "blocks/info__map.scss"; /*!*/
 @import "blocks/main-nav__wrapper.scss";
 @import "blocks/clients-cards__list";
 @import "blocks/filter__settings.scss";
@@ -103,7 +110,6 @@ body {
   width: 280px;
   min-width: 280px;
   padding: 13px 10px;
-  min-height: 55px;
   margin-left: 0;
   border-radius: 36px;
   font-family: inherit;
