@@ -1,0 +1,32 @@
+.main__wrapper {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.main__explonation {
+  margin-top: 55px;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+}
+
+.main__button-submit {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #fff;
+  font-family: inherit;
+  padding: 17px 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 3px;
+  background-color: #2aab6d;
+  cursor: pointer;
+}
+
+.main__form-wrapper {
+  padding: 0 20px;
+}

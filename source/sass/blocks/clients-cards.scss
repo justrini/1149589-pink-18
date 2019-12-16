@@ -21,6 +21,16 @@
   color: #283645;
 }
 
+.review__toggle {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url(../img/icon-heart.svg);
+  background-repeat: no-repeat;
+  background-size: 13px 13px;
+}
+
 .clients-cards__wrap {
   padding: 0 20px;
 }

@@ -1,12 +1,15 @@
 .form-list {
-  list-style-type: none;
+  padding: 0;
+  list-style: none;
+
 }
 
-.main__achievment-list,
-.main__device-list {
+.main__achievment,
+.main__device {
   background-color: #f2f2f2;
 }
 
 .main-legend {
+  display: contents;
   color: #d22856;
 }

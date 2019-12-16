@@ -72,7 +72,7 @@
           </li>
         </ul>
       </fieldset>
-      <fieldset class="main__achievment">
+      <fieldset class="main__achievment ">
         <legend class="main-legend">Ваши безбашенные достижения в путешествии</legend>
         <ul class="main__achievment-list form-list">
           <li class="main__achievment-item form-list__item">
@@ -131,41 +131,45 @@
           </li>
         </ul>
       </fieldset>
-      <div class="main__text">
-        <label for="story">опишите свои эмоции</label>
-        <textarea name="description" id="story" placeholder="Можно прям в красках, не стесняясь в выражениях"
-          type="text"></textarea>
-      </div>
-      <div class="main__submit">
-        <button class="main__button-submit" type="submit">отправить форму</button>
-      </div>
-      <div class="main__under-submit">
-        <p class="main__note">
-          <span class="main__span">*</span> - обязательные поля</p>
+      <div class="main__form-wrapper">
+        <div class="main__text">
+          <label for="story">опишите свои эмоции</label>
+          <textarea name="description" id="story" placeholder="Можно прям в красках, не стесняясь в выражениях"
+            type="text"></textarea>
+        </div>
+        <div class="main__submit">
+          <button class="main__button-submit" type="submit">отправить форму</button>
+        </div>
+        <div class="main__under-submit">
+          <p class="main__note">
+            <span class="main__span">*</span> - обязательные поля</p>
+        </div>
       </div>
     </form>
   </div>
 </main>
 
 <footer class="footer">
-  <a class="footer__logo" href="index.html">
-    <svg class="footer__logo-image"></svg>
-  </a>
-  <div class="footer__social">
-    <a class="footer__btn" href="#">
-      <svg class="footer__btn--twitter"></svg>
+  <div class="footer__wrapper wrapper">
+    <a class="footer__logo" href="index.html">
+      <img class="footer__logo-image"></img>
     </a>
-    <a class="footer__btn" href="#">
-      <svg class="footer__btn--facebook"></svg>
-    </a>
-    <a class="footer__btn" href="#">
-      <svg class="footer__btn--youtube"></svg>
+    <div class="footer__social social">
+      <a class="social__link" href="#">
+        <i class="social__btn social__btn--twitter"></i>
+      </a>
+      <a class="social__link" href="#">
+        <i class="social__btn social__btn--facebook"></i>
+      </a>
+      <a class="social__link" href="#">
+        <i class="social__btn social__btn--youtube"></i>
+      </a>
+    </div>
+    <a class="footer__copyright" href="https://htmlacademy.ru/intensive/adaptive">
+      <img class="footer__copyright-svg"></img>
+      <span class="footer__copyright-text">Разработано</span>
     </a>
   </div>
-  <a class="footer__copyright" href="https://htmlacademy.ru/intensive/adaptive">
-    <svg class="footer__copyright-svg"></svg>
-    <span class="footer__copyright-text">Разработано</span>
-  </a>
 </footer>
 
 </html>
