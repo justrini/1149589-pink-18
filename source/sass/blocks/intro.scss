@@ -1,12 +1,15 @@
+ .intro {
+   background-color: #1d2631;
+   color: #fff;
+ }
+
  .intro__wrapper {
    max-width: 320px;
    margin: 0 auto;
-   background: url(../img/bg-back-mobile@1x.jpg);
-   background-repeat: no-repeat;
-
  }
 
  .intro__title {
+   margin-top: 264px;
    background: url(../img/bg-back-mobile@1x.jpg);
    background-repeat: no-repeat;
  }
@@ -25,8 +28,7 @@
 
  .intro__slogan {
    margin: 0;
-   padding-left: 20px;
-   padding-top: 29px;
+   padding: 20px 20px 0 20px;
    font-family: "Opensans-light", "Arial", sans-serif;
    font-size: 24px;
    color: #fff;
@@ -35,7 +37,7 @@
 
  .intro__description {
    margin: 0 auto;
-   padding: 20px 20px 30px;
+   margin-top: 20px;
    font-family: "MYRIADPRO-REGULAR";
    font-size: 14px;
    line-height: 24px;
@@ -53,8 +55,4 @@
    text-align: center;
    width: 260px;
 
- }
-
- .intro__device {
-   padding: 20px 0 30px;
  }

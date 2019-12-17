@@ -1,13 +1,21 @@
+.page-header {
+  position: relative;
+  background-color: #283645;
+}
+
+.page-header__wrapper {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
 .page-header__nav-wrapper {
   display: flex;
   justify-content: space-between;
   background-color: #283645;
-  border-bottom: 1px solid #222;
-
 }
 
 .page-header__logo {
   padding-left: 20px;
-  padding-top: 22px;
-  padding-bottom: 22px;
+
 }
