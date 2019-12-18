@@ -11,14 +11,12 @@
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #283645;
 }
 
 .review__text {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
-  color: #283645;
 }
 
 .review__toggle {
@@ -29,6 +27,10 @@
   background-image: url(../img/icon-heart.svg);
   background-repeat: no-repeat;
   background-size: 13px 13px;
+}
+
+.review__like-button {
+  display: flex;
 }
 
 .clients-cards__wrap {
@@ -42,6 +44,8 @@
 
 .clients-cards__review {
   padding-left: 18px;
+  color: #283645;
+
 }
 
 .clients-cards__nonpanorama {
@@ -50,8 +54,7 @@
 
 .clients-cards__review {
 
-  padding-top: 25px;
-  padding-bottom: 26px;
+  padding: 25px 20px;
   background-color: #f2f2f2;
 
 }
@@ -65,20 +68,19 @@
   padding-bottom: 18px;
 }
 
-.clients-cards__text {
-  margin: 0 auto;
-  padding: 55px 0 55px;
-  width: 242px;
+
+.clients-cards__link {
+  display: block;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.clients-cards__description {
   text-align: center;
   background-color: #fff;
   color: #283645;
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
-}
-
-.clients-cards__link {
-  margin: 0;
-  padding: 0;
-  display: flex;
 }
